@@ -1,0 +1,20 @@
+// card inputs
+.card {
+    .form-control {
+        background: var(--bs-body-bg);
+    }
+}
+
+// card image upload
+.btn-file-upload {
+    .input-group-text {        
+        &.form-control {
+            width: 100%;
+            display: block;
+            text-align: left;
+        }
+    }
+    .form-control {
+        display: none;
+    }
+}
